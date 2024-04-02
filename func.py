@@ -15,7 +15,6 @@ import string
 
 
 def funcDF_info(df, columns=None):
-
     print(f'DF.info :\n{df.info()}\n\n')
     print(f'DF.describe :\n{df.describe()}\n\n')
     print(f'DF 결측치 파악 :\n{df.isnull().sum()}\n\n')
